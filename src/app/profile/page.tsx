@@ -99,7 +99,6 @@ export default async function ProfilePage() {
                     title="Активни огласи"
                     properties={mapped}
                     showActionButtons={true}
-                    handleDelete={handleDelete}
                 />
 
                 {session.user.role === "AGENCY" && (
